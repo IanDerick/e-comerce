@@ -12,12 +12,18 @@ body{
     margin: 30px;
     background-color: white;
 }
-.topnav{
+
+.topnav a{
     float: left;
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #555555; 
+    color: white;
     text-decoration: none;
     padding: 0 14px 16px;
+}
+
+#carrinho-compras{
+    float: right;
 }
 
 #icone-carrinho{
@@ -25,4 +31,38 @@ body{
     width: 22px;
     height: 22px;
     vertical-align: middle;
+}
+
+.sellcard{
+    float: left;
+    width: 23.40%;
+    margin: 10px;
+}
+
+.sellcard img{
+    width: 80%;
+    margin: auto;
+}
+
+.item {
+    text-align: center;
+    font-size: 15px;
+    font-family:  Helvetica;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.valor-item{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.comprar{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    padding: 10px;
 }
