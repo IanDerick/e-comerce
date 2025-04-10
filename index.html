@@ -10,42 +10,50 @@
         <div class="header">
             <h1>Loja de roupas e acessórios</h1>
         </div>
-        <div class="topnav">
-            <a href="#">Home</a>
-            <a href="#">Roupa</a>
-            <a href="#">Acessórios</a>
-            <a href="#" id="carrinho-compras">
-                Carrinho de compras
-                <img src="assets/img/compra.png" alt="carrinho-de-compras" id="icone-carrinho">
-            </a>
-        </div>
-        <div class="row">
-            <div class="leftcolumn">
-                <div class="sellcard">
-                    <img src="assets/img/bone.jpg" alt="img-produto1">
-                    <p class="item">Boné</p>
-                    <p class="valor-item">R$79,90</p>
-                    <p class="comprar">COMPRAR</p>
+        <nav>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Roupa</a></li>
+            <li><a href="#">Acessórios</a></li>
+            <li><a href="#" id="carrinho-compras">Carrinho de compras</a></li>
+            <div class="filtros-container">
+                <div class="filtro">
+                    <label for="preco">Preço:</label>
+                    <select id="preco">
+                    <option value="menor">Menor preço</option>
+                    <option value="maior">Maior preço</option>
+                    </select>
                 </div>
             </div>
-            <div class="sellcard">
-                <img src="assets/img/jaqueta.jpg" alt="img-produto2">
-                <p class="item">Jaqueta</p>
-                <p class="valor-item">R$179,90</p>
-                <p class="comprar">COMPRAR</p>
+        </nav>
+        <section class="produtos">
+            <div class="produto">
+                <img src="assets/img/bone-highjpg.jpg" alt="img-produto1">
+                <h3>Boné High</h3>
+                <p class="valor-item">R$49,90</p>
+                <button>COMPRAR</button>
             </div>
-            <div class="sellcard">
+            <div class="produto">
+                <img src="assets/img/jaqueta.jpg" alt="img-produto2">
+                <h3>Jaqueta Jersey</h3>
+                <p class="valor-item">R$99,90</p>
+                <button>COMPRAR</button>
+            </div>
+            <div class="produto">
                 <img src="assets/img/bone.jpg" alt="img-produto1">
-                <p class="item">Boné</p>
-                <p class="valor-item">R$79,90</p>
-                <p class="comprar">COMPRAR</p>
+                <h3>Boné</h3>
+                <p class="valor-item">R$69,90</p>
+                <button>COMPRAR</button>
             </div>
-            <div class="sellcard">
-                <img src="assets/img/jaqueta.jpg" alt="img-produto2">
-                <p class="item">Jaqueta</p>
-                <p class="valor-item">R$179,90</p>
-                <p class="comprar">COMPRAR</p>
+            <div class="produto">
+                <img src="assets/img/moletom-fear-of-godjpg.jpg" alt="img-produto2">
+                <h3>Moletom Fear Of God</h3>
+                <p class="valor-item">R$199,90</p>
+                <button>COMPRAR</button>
             </div>
-        </div>
+        </section>
+        <footer>
+            <p>&copy; 2025 Loja virutal</p>
+        </footer>
+        <script src="js/site.js"></script>
     </body>
 </html>
